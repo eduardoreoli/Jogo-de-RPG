@@ -9,20 +9,36 @@
 <link rel='stylesheet' href='assets/css/style.css'>
 </head>
 <body>
-
+    <div class="container text-center mb-5">
+        <h1>Escolha seu personagem!</h1>
+    </div>
     <div class="personagens container text-center">
         <a href="#">
             <img id="arqueiro" class="arqueiro botao" src="imagens/arqueiro.jpg" alt="">
             <h3>Arqueiro</h3>
+            <p><strong>Força: </strong><span id="res-arqueiro"></span></p>
         </a>
         <a href="#">
             <img id="cavaleiro" class="cavaleiro botao" src="imagens/cavaleiros-que-dizem-ni.jpg" alt="">
             <h3>Cavaleiro</h3>
+            <p><strong>Força: </strong><span id="res-cavaleiro"></span></p>
+
         </a>
         <a href="#">
             <img id="mago" class="mago botao" src="imagens/tim-o-mago.jpg" alt="">
             <h3>Mago</h3>
+            <p><strong>Força: </strong><span id="res-mago"></span></p>
+
         </a>
+    </div>
+
+    <button id="atacar-btn" class="btn btn-primary">Atacar</button>
+
+    <div class="monstro-div text-center mt-5">
+        <img id="monstro" class="monstro-class" src="imagens/coelho_assassino.jpg" alt="">
+        <h3>Monstro</h3>
+        <p><strong>HP: </strong><span id="hp-monstro"></span></p>
+        <p><strong>Defesa: </strong><span id="defesa-monstro"></span></p>
     </div>
 
 <script src='script.js'></script>
