@@ -1,0 +1,18 @@
+Desafio: Simulando um jogo de RPG
+Você deve criar um jogo de RPG simples em que o jogador possa escolher uma classe (guerreiro, mago ou arqueiro) e lutar contra um monstro.
+
+O jogo deve ter os seguintes requisitos:
+
+Ao clicar em um dos botões de classe (guerreiro, mago ou arqueiro), o jogador deve ser capaz de escolher sua classe. O botão da classe escolhida deve ficar destacado (por exemplo, com uma borda verde).
+
+Após escolher sua classe, o jogador deve ser capaz de atacar o monstro clicando em um botão de ataque. Cada classe deve ter um tipo de ataque diferente (por exemplo, o guerreiro usa uma espada, o mago usa uma bola de fogo e o arqueiro usa uma flecha). O ataque deve ser exibido na tela (por exemplo, "O guerreiro usou Espada!").
+
+O monstro deve ter uma barra de vida que diminui após cada ataque do jogador. Quando a barra de vida do monstro chegar a zero, o jogador deve ser declarado vencedor.
+
+O jogo deve permitir ao jogador reiniciar a partida a qualquer momento.
+
+O jogo deve ser responsivo e adequado para dispositivos móveis.
+
+Você pode usar imagens e animações para tornar o jogo mais interessante. Você também pode adicionar mais funcionalidades se desejar.
+
+Boa sorte!

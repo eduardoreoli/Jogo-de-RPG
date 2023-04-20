@@ -1,0 +1,9 @@
+
+.botao {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.selected {
+    border: 26px solid green;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+$fonte: "Sedgwick Ave Display", cursive;
+$cor-do-botao-selecionado: #a00000;
+$cor-titulo-personagem: #7a1620;
+
+h3 {
+    font-family: $fonte;
+    font-size: 2.4rem;
+}
+
+a { 
+    text-decoration: none;
+    color: $cor-titulo-personagem;
+}
+
+body {
+    .personagens {
+        display: flex;
+        justify-content: space-around;
+
+        .botao {
+            border-radius: 50%;
+            width: 200px;
+            margin-bottom: 20px;
+        }
+        .selected {
+            border: 26px solid $cor-do-botao-selecionado;
+        }
+    }
+}
